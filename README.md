@@ -25,6 +25,8 @@ Tsunade has tasked you as the chief ninja programmer of Konoha and you will have
 ---
 ## Iteration 1 / **Add_the_positives_results**
 
+<img src="https://narutoversity.wordpress.com/wp-content/uploads/2017/11/mission-rankings.jpg" height="200" />
+
  It helps to analyze the results of the missions, the enemy has damaged it by adding negative numbers in the list, create a new list with only the positive results and add them up.
  Creates an error handling for data other than numbers!!
 ```
@@ -34,7 +36,7 @@ input => output
 ```
 
 ## Iteration 2
-
+<img src="https://static.wikia.nocookie.net/naruto/images/2/20/Sakura_Haruno_Parte_II_Anime.png/revision/latest?cb=20140318191249&path-prefix=es" height="200" />
 ### Iteration 2.1 / **Count_the_color**
 
 Sakura needs to know how many times a specific color has been used in medical reports.Write a function that prompts the user for a color and counts the number of times it appears in the list.
@@ -59,6 +61,9 @@ try now to search in a multidimensional list
 ```
 ## Iteration 3 / **strings_order**
 
+<img src="https://img.wattpad.com/cover/359580473-288-k223324.jpg" height="200" />
+
+
 Tsunade needs to organize the missions by name length to prioritize them.Write a function that takes a list of strings as an argument and returns an ordered list containing the same strings, sorted from shortest to longest.
 
 ```
@@ -69,6 +74,8 @@ input => output
 ```
 
 ### Iteration 4 / **Calculate Total Strength**
+
+
 
  You need to calculate the total strength of the konoha ninja for the 5th ninja war. For this Tsunade has given you a quick list of the best ninja, make sure it contains no mistakes.
  
@@ -90,8 +97,8 @@ ninjas = [
 5. Handles the error of strength being a string
 6. Print the total strength of the ninjas.
 
-### Iteration 5 / **Calculate Total Strength**
-
+### Iteration 5 / **Calculate who are the strongest**
+<img src="https://i.redd.it/v87hd4k0wno61.jpg" height="200" />
 We already know the total strength of konoha but now we will need to know who are the strongest .
 Make a function that receives the object and a strength number.
 The function should return the ninjas that have a strength equal to or greater than what you have passed to the function. 
