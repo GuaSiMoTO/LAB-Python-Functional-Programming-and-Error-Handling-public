@@ -26,10 +26,11 @@ Tsunade has tasked you as the chief ninja programmer of Konoha and you will have
 ## Iteration 1 / **Add_the_positives_results**
 
  It helps to analyze the results of the missions, the enemy has damaged it by adding negative numbers in the list, create a new list with only the positive results and add them up.
+ Creates an error handling for data other than numbers!!
 ```
 input => output
 
-[1,-4,7,-2, -7,10,-1] => 1 + 7 + 10 = 21
+[1,-4,7,Katana,-2, -7,10,-1,shuriken] => 1 + 7 + 10 = 21
 ```
 
 ## Iteration 2
@@ -37,7 +38,7 @@ input => output
 ### Iteration 2.1 / **Count_the_color**
 
 Sakura needs to know how many times a specific color has been used in medical reports.Write a function that prompts the user for a color and counts the number of times it appears in the list.
-
+Creates an custom error handling for input data other than strings or are not in the list. !!
 ```
 ["red", "blue", "red", "white", “green”, “black”, “orange”, “black”, “red”]
 
@@ -86,7 +87,8 @@ ninjas = [
 2. Copy the list of ninjas.
 3. Make a function that receives the ninja object and checks with a try if it is a number or not. 
 4. Use reduce into the function together with a lambda function to sum the strength.
-5. Print the total strength of the ninjas.
+5. Handles the error of strength being a string
+6. Print the total strength of the ninjas.
 
 ### Iteration 5 / **Calculate Total Strength**
 
