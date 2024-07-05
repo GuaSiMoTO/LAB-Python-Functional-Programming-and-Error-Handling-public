@@ -69,7 +69,8 @@ input => output
 
 ### Iteration 4 / **Calculate Total Strength**
 
-The Hokage of Konoha has assigned you an important mission. You need to calculate the total strength of the konoha ninja for the 5th ninja war. For this Tsunade has given you a quick list of the best ninja, make sure it contains no mistakes.
+ You need to calculate the total strength of the konoha ninja for the 5th ninja war. For this Tsunade has given you a quick list of the best ninja, make sure it contains no mistakes.
+ 
 ```
 ninjas = [
     {'name': 'Naruto', 'strength': 9000},
