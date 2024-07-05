@@ -7,12 +7,14 @@
 
 > ***Note:*** _This can be a pair programming activity or done independently._
 
-In the hidden village of Konoha, the Fifth Hokage, Tsunade, faced a new threat, not in the form of bijus or colossal beasts, but in a challenge that demanded technological skills. The village had suffered a cybernetic ninja attack that compromised its communication systems and vital mission data. The digital firewalls protecting sensitive village information were compromised, and the data had become damaged and disorganized.
+In the hidden village of Konoha, the Fifth Hokage faced a new threat, but this time not in the form of bijus. The village had suffered a cybernetic ninja attack that damaged and disrupted its communication systems and vital mission data. 
 Tsunade has tasked you as the chief ninja programmer of Konoha and you will have to fix all the data errors. 
 
-> ⚠️ **Warning:**  ninjas only use the functions lambda, map, reduce and filter any other way of doing the mission will not be approved by Tsunade.
-> 
 ![Tsunade](https://static.wikia.nocookie.net/naruto/images/3/39/Sello_Fuerza_de_un_Centenar_Anime.png/revision/latest?cb=20130725152120&path-prefix=es)
+
+> ⚠️ **Warning:**  ninjas only use the functions lambda, map, reduce and filter any other way of doing the mission will not be approved by Tsunade.
+
+*Do not fail us shinobi !!!!*
 
 ## Requirements
 
@@ -21,20 +23,21 @@ Tsunade has tasked you as the chief ninja programmer of Konoha and you will have
 
 
 ---
-## Iteration 1 / **Add_the_positives**
+## Iteration 1 / **Add_the_positives_results**
 
-Create a function in which you get a tuple of numbers, and return the sum of all positive numbers:
+ It helps to analyze the results of the missions, the enemy has damaged it by adding negative numbers in the list, create a new list with only the positive results and add them up.
 ```
 input => output
 
-[1,-4,7,-2, -7,13] => 1 + 7 + 13 = 21
+[1,-4,7,-2, -7,10,-1] => 1 + 7 + 10 = 21
 ```
 
 ## Iteration 2
 
 ### Iteration 2.1 / **Count_the_color**
 
-Write a function that asks the user for a color and counts the number of times it appears in the list.
+Sakura needs to know how many times a specific color has been used in medical reports.Write a function that prompts the user for a color and counts the number of times it appears in the list.
+
 ```
 ["red", "blue", "red", "white", “green”, “black”, “orange”, “black”, “red”]
 
@@ -55,35 +58,16 @@ try now to search in a multidimensional list
 ```
 ## Iteration 3 / **strings_order**
 
-Write a function that takes a list of strings as an argument and returns a sorted list containing the same strings, ordered from shortest to longest.
+Tsunade needs to organize the missions by name length to prioritize them.Write a function that takes a list of strings as an argument and returns an ordered list containing the same strings, sorted from shortest to longest.
+
 ```
 input => output
 
-["Multidimensional", "Earth", "Try", "Banana"] => ["Try", "Earth", "Banana", "Multidimensional"]
+["Rescue", "Infiltrate", "Guard", "Retrieve", "Investigate", "Defend", "Escort", "Patrol", "Eliminate", "Capture"] => ["Guard", "Rescue", "Defend", "Escort", "Patrol", "Retrieve", "Capture", "Eliminate", "Infiltrate", "Investigate"]
+
 ```
 
-## Iteration 4
-
-### Iteration 4.1 / **Fix_the_string**
-
-This function has to return the join of the firstName and the lastName attributes of the person argument with a space between them. Also it has to transform the first letter of both values to upperCase if necessary.
-```
-input --> output
-
-{ firstName : 'Luis' , lastName: 'burón' } => "Luis Burón"
-```
-### Iteration 4.2 / **Fix_the_dictionary**
-
-This function has to return the join of the firstName and the lastName attributes of the person argument with a space between them. Also it has to transform the first letter of every word of both values to upperCase if it is necessary. In this case, you can receive as lastName or firstName value a compound name.
-```
-input => output
-
-{ firstName : 'Luis Álvaro' , lastName: 'burón mejías' } => "Luis Álvaro Burón Mejías"
-```
-## Iteration 5
-
-
-### Iteration 5.1 / **Calculate Total Strength**
+### Iteration 4 / **Calculate Total Strength**
 
 The Hokage of Konoha has assigned you an important mission. You need to calculate the total strength of the konoha ninja for the 5th ninja war. For this Tsunade has given you a quick list of the best ninja, make sure it contains no mistakes.
 ```
@@ -103,7 +87,7 @@ ninjas = [
 4. Use reduce into the function together with a lambda function to sum the strength.
 5. Print the total strength of the ninjas.
 
-### Iteration 5.2 / **Calculate Total Strength**
+### Iteration 5 / **Calculate Total Strength**
 
 We already know the total strength of konoha but now we will need to know who are the strongest .
 Make a function that receives the object and a strength number.
@@ -120,7 +104,7 @@ def filter_ninjas_by_strength(ninjas, threshold):
 print(filter_ninjas_by_strength(ninjas, 8000)) # Output: [{'name': 'Naruto', 'strength': 9000}]]
 print(filter_ninjas_by_strength(ninjas, 'high')) # Output: "Error: strength threshold must be a number."
 ```
-### Iteration 5.2 / **Get the Ninja Names**
+### Iteration 6 / **Get the Ninja Names**
 
 Use lambda and map to get a list of the names of the ninjas in capital letters.
 
@@ -129,16 +113,19 @@ Use lambda and map to get a list of the names of the ninjas in capital letters.
 Create a function get_best_students that takes a dictionary of students. The function must return a dictionary with the emails and the average of the students. These students must have a average value of 9 or more in their subjects. The output have to be orderer by average mark.
 For example:
 ```
-getBestStudents([
-  {name : "Luis", age : 20, email : "luis@gmail.com", subjectsMarks : [9, 8, 10, 5 , 10]},
-  {name : "Luigi", age : 14, email : "luigi@gmail.com", subjectsMarks : [9, 8, 10, 9 , 10]},
-  {name : "Mario", age : 25, email : "mario@gmail.com", subjectsMarks : [9, 10, 10, 9, 10]},
-])
-
+students = [
+    {"name": "Naruto", "age": 17, "email": "naruto@konoha.com", "subjectsMarks": [9, 8, 10, 5, 10]},
+    {"name": "Sasuke", "age": 17, "email": "sasuke@konoha.com", "subjectsMarks": [9, 8, 10, 9, 10]},
+    {"name": "Sakura", "age": 17, "email": "sakura@konoha.com", "subjectsMarks": [9, 10, 10, 9, 10]},
+    {"name": "Shikamaru", "age": 17, "email": "shikamaru@konoha.com", "subjectsMarks": [8, 8, 7, 6, 8]}
+]
+getBestStudents(students)
 returns [
-  {email : "mario@gmail.com", average : 9.6 }, 
-  {email : "luis@gmail.com", average : 9.2 }
- ]
+    {"email": "sakura@konoha.com", "average": 9.6},
+    {"email": "sasuke@konoha.com", "average": 9.2},
+    {"email": "naruto@konoha.com", "average": 8.4}
+]
+
 ```
 ## Submission
 
