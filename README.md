@@ -7,7 +7,12 @@
 
 > ***Note:*** _This can be a pair programming activity or done independently._
 
-With what we have learned about functions and data structures we will be able to solve new problems and challenges in python, let's see how it goes.
+In the hidden village of Konoha, the Fifth Hokage, Tsunade, faced a new threat, not in the form of bijus or colossal beasts, but in a challenge that demanded technological skills. The village had suffered a cybernetic ninja attack that compromised its communication systems and vital mission data. The digital firewalls protecting sensitive village information were compromised, and the data had become damaged and disorganized.
+Tsunade has tasked you as the chief ninja programmer of Konoha and you will have to fix all the data errors. 
+
+> ⚠️ **Warning:**  ninjas only use the functions lambda, map, reduce and filter any other way of doing the mission will not be approved by Tsunade.
+> 
+![Tsunade](https://static.wikia.nocookie.net/naruto/images/3/39/Sello_Fuerza_de_un_Centenar_Anime.png/revision/latest?cb=20130725152120&path-prefix=es)
 
 ## Requirements
 
@@ -76,8 +81,7 @@ input => output
 { firstName : 'Luis Álvaro' , lastName: 'burón mejías' } => "Luis Álvaro Burón Mejías"
 ```
 ## Iteration 5
-> ⚠️ **Warning:**  ninjas only use the functions lambda, map, reduce and filter any other way of doing the mission will not be approved by Tsunade. 
-![Tsunade](https://static.wikia.nocookie.net/naruto/images/3/39/Sello_Fuerza_de_un_Centenar_Anime.png/revision/latest?cb=20130725152120&path-prefix=es)
+
 
 ### Iteration 5.1 / **Calculate Total Strength**
 
