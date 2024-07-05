@@ -137,7 +137,7 @@ returns [
 ]
 
 ```
-<img src="https://i.pinimg.com/736x/20/12/66/2012668cdd0a8b4d53bd106ac5626443.jpg" />
+<img src="https://i.pinimg.com/736x/20/12/66/2012668cdd0a8b4d53bd106ac5626443.jpg" height="400"/>
 
 
 ## Submission
