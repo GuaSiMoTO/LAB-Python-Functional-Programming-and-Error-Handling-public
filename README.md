@@ -48,6 +48,9 @@ input => output
 
 blue => the color blue appears 2 times.
 ```
+Do you think there is any validation that is not necessary? Justify your answer 
+
+
 ### Iteration 2.2 / **Count_the_color_multidimensional** 
 
 try now to search in a multidimensional list
