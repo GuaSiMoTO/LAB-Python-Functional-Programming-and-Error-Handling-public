@@ -37,6 +37,7 @@ input => output
 
 ## Iteration 2
 <img src="https://static.wikia.nocookie.net/naruto/images/2/20/Sakura_Haruno_Parte_II_Anime.png/revision/latest?cb=20140318191249&path-prefix=es" height="200" />
+
 ### Iteration 2.1 / **Count_the_color**
 
 Sakura needs to know how many times a specific color has been used in medical reports.Write a function that prompts the user for a color and counts the number of times it appears in the list.
