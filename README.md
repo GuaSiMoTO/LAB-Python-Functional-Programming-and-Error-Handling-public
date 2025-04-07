@@ -137,7 +137,6 @@ getBestStudents(students)
 returns [
     {"email": "sakura@konoha.com", "average": 9.6},
     {"email": "sasuke@konoha.com", "average": 9.2},
-    {"email": "naruto@konoha.com", "average": 8.4}
 ]
 
 ```
